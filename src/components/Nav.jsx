@@ -12,7 +12,7 @@ const LINKS = [
   { label: 'AI Platform', href: '#ai-platform' },
 ]
 
-export default function Nav({ onRequest }) {
+export default function Nav() {
   const reduce = useReducedMotion()
 
   // Stagger the primary links in after the bar settles.
@@ -69,19 +69,8 @@ export default function Nav({ onRequest }) {
             ))}
           </motion.ul>
 
-          {/* Right: request CTA + member account */}
+          {/* Right: member account */}
           <div className="flex items-center gap-2.5 sm:gap-3">
-            {onRequest && (
-              <motion.button
-                type="button"
-                onClick={onRequest}
-                whileHover={reduce ? undefined : { y: -2 }}
-                whileTap={reduce ? undefined : { scale: 0.98 }}
-                className="btn-brand hidden shrink-0 items-center rounded-full px-4 py-2 text-sm font-semibold tracking-tight text-white outline-none focus-visible:ring-2 focus-visible:ring-brand-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-950 sm:inline-flex"
-              >
-                Request to Attend
-              </motion.button>
-            )}
             <motion.a
               href="#account"
               aria-label="Your member account"
