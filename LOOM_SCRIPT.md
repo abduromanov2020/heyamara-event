@@ -102,7 +102,9 @@
 
 > So that's it — built fast with AI for exploration, filtered hard by taste, and finished like production code. If I were on the team, the goal would be to take the front-end work off your plate entirely so you're not the bottleneck anymore.
 >
-> The brief said move fast — so did I. Happy to walk through any of it on the call. Thanks Harvey.
+> The brief said move fast — so did I. And honestly, I'd really value your feedback on this — you're the taste bar here, so I want to know where my eye lines up with yours and where it doesn't. If there's a section you'd have done differently, tell me straight; that's the kind of note I learn fast from.
+>
+> I hope the taste and the craft here land close to what you're looking for. Either way I had a genuinely good time building it. Happy to dig into any of it on the call — thanks Harvey.
 
 **[Stop recording]**
 
